@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function(){
+            var arr=[];
+            alert(fn1(3,8));
+            function fn1(a,b){
+                var max=0;
+                var min=0;
+                if(a-b<0){
+                    max = b;
+                    min = a;
+                }else {
+                    max=a;
+                    min=b;
+                }
+
+                for(var i=min;i<=max;i++){
+                    arr.push(i);
+                }
+
+                return arr;
+
+            };
+        }
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

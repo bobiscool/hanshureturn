@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function(){
+          getId('btn1').onclick = function(){
+            alert(getId('div1').innerHTML);
+          };
+
+            function getId(id){
+                return document.getElementById(id);
+            };
+        };
+
+
+    </script>
+</head>
+<body>
+<input type="button" value="按">
+<div id="div1">123</div>
+
+</body>
+</html>
